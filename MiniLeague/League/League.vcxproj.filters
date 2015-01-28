@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="League">
+      <UniqueIdentifier>{356e4716-c7ef-4cbc-95ec-7a853f63d8ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Background.cpp">
+      <Filter>League</Filter>
+    </ClCompile>
+    <ClCompile Include="ChampSelectPopup.cpp">
+      <Filter>League</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>League</Filter>
+    </ClCompile>
+    <ClCompile Include="Cleague.cpp">
+      <Filter>League</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBase.cpp">
+      <Filter>League</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>League</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintConsole.cpp">
+      <Filter>League</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>League</Filter>
+    </ClCompile>
+    <ClCompile Include="UIButton.cpp">
+      <Filter>League</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Background.h">
+      <Filter>League</Filter>
+    </ClInclude>
+    <ClInclude Include="ChampSelectPopup.h">
+      <Filter>League</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>League</Filter>
+    </ClInclude>
+    <ClInclude Include="Cleague.h">
+      <Filter>League</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>League</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBase.h">
+      <Filter>League</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>League</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintConsole.h">
+      <Filter>League</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>League</Filter>
+    </ClInclude>
+    <ClInclude Include="UIButton.h">
+      <Filter>League</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,143 @@
+﻿빌드 시작: 2014-07-04 오후 2:47:14
+     1>2 노드의 "C:\Users\Son Chaeone\Documents\GitHub\MiniLeague\NNGameFramework\NNGameFramework.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Library\MD5\md5.cpp Library\TinyXML\action_store.cpp Library\TinyXML\htmlutil.cpp Library\TinyXML\lex_util.cpp Library\TinyXML\node_set.cpp Library\TinyXML\tinystr.cpp Library\TinyXML\tinyxml.cpp Library\TinyXML\tinyxmlerror.cpp Library\TinyXML\tinyxmlparser.cpp Library\TinyXML\tokenlist.cpp Library\TinyXML\xml_util.cpp Library\TinyXML\xpath_expression.cpp Library\TinyXML\xpath_processor.cpp Library\TinyXML\xpath_stack.cpp Library\TinyXML\xpath_static.cpp Library\TinyXML\xpath_stream.cpp Library\TinyXML\xpath_syntax.cpp Library\zip\unzip.cpp Library\zip\zip.cpp NNAnimation.cpp NNApplication.cpp NNAudioSystem.cpp NNCamera.cpp NNCircularBuffer.cpp NNColor.cpp NND2DRenderer.cpp NND3DRenderer.cpp NNInputSystem.cpp NNLabel.cpp NNMatrix.cpp NNNetworkSystem.cpp NNObject.cpp NNParticle.cpp NNParticleSystem.cpp NNPoint.cpp NNRandom.cpp NNResourceManager.cpp NNScene.cpp NNSceneDirector.cpp NNSize.cpp NNSound.cpp NNSprite.cpp NNSpriteAtlas.cpp NNSpriteNode.cpp NNTexture.cpp NNUISet.cpp NNXML.cpp NNZip.cpp
+         NNZip.cpp
+         NNXML.cpp
+         NNUISet.cpp
+         NNTexture.cpp
+         NNSpriteNode.cpp
+         NNSpriteAtlas.cpp
+         NNSprite.cpp
+         NNSound.cpp
+         NNSize.cpp
+         NNSceneDirector.cpp
+         NNScene.cpp
+         NNResourceManager.cpp
+     1>c:\users\son chaeone\documents\github\minileague\nngameframework\nnresourcemanager.cpp(129): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : 'sprintf' 선언을 참조하십시오.
+         NNRandom.cpp
+         NNPoint.cpp
+         NNParticleSystem.cpp
+         NNParticle.cpp
+         NNObject.cpp
+         NNNetworkSystem.cpp
+     1>c:\users\son chaeone\documents\github\minileague\nngameframework\nnnetworksystem.cpp(83): warning C4018: '>' : signed 또는 unsigned가 일치하지 않습니다.
+         NNMatrix.cpp
+         NNLabel.cpp
+         코드를 생성하고 있습니다...
+         컴파일하고 있습니다...
+         NNInputSystem.cpp
+         NND3DRenderer.cpp
+         NND2DRenderer.cpp
+         NNColor.cpp
+         NNCircularBuffer.cpp
+         NNCamera.cpp
+         NNAudioSystem.cpp
+         NNApplication.cpp
+         NNAnimation.cpp
+         zip.cpp
+     1>c:\users\son chaeone\documents\github\minileague\nngameframework\library\zip\zip.cpp(2228): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : 'strcpy' 선언을 참조하십시오.
+     1>c:\users\son chaeone\documents\github\minileague\nngameframework\library\zip\zip.cpp(2561): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(288) : 'wcscpy' 선언을 참조하십시오.
+     1>c:\users\son chaeone\documents\github\minileague\nngameframework\library\zip\zip.cpp(2582): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : 'strcpy' 선언을 참조하십시오.
+     1>c:\users\son chaeone\documents\github\minileague\nngameframework\library\zip\zip.cpp(2589): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : 'strcat' 선언을 참조하십시오.
+     1>c:\users\son chaeone\documents\github\minileague\nngameframework\library\zip\zip.cpp(2590): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : 'strcpy' 선언을 참조하십시오.
+     1>c:\users\son chaeone\documents\github\minileague\nngameframework\library\zip\zip.cpp(2765): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : 'strncpy' 선언을 참조하십시오.
+         unzip.cpp
+     1>c:\users\son chaeone\documents\github\minileague\nngameframework\library\zip\unzip.cpp(3754): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : 'strcpy' 선언을 참조하십시오.
+     1>c:\users\son chaeone\documents\github\minileague\nngameframework\library\zip\unzip.cpp(3780): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(279) : 'wcscat' 선언을 참조하십시오.
+     1>c:\users\son chaeone\documents\github\minileague\nngameframework\library\zip\unzip.cpp(3796): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(288) : 'wcscpy' 선언을 참조하십시오.
+     1>c:\users\son chaeone\documents\github\minileague\nngameframework\library\zip\unzip.cpp(3798): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(279) : 'wcscat' 선언을 참조하십시오.
+     1>c:\users\son chaeone\documents\github\minileague\nngameframework\library\zip\unzip.cpp(3855): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(288) : 'wcscpy' 선언을 참조하십시오.
+     1>c:\users\son chaeone\documents\github\minileague\nngameframework\library\zip\unzip.cpp(3960): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(288) : 'wcscpy' 선언을 참조하십시오.
+     1>c:\users\son chaeone\documents\github\minileague\nngameframework\library\zip\unzip.cpp(4011): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(288) : 'wcscpy' 선언을 참조하십시오.
+     1>c:\users\son chaeone\documents\github\minileague\nngameframework\library\zip\unzip.cpp(4082): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(317) : 'wcsncpy' 선언을 참조하십시오.
+         xpath_syntax.cpp
+         xpath_stream.cpp
+         xpath_static.cpp
+         xpath_stack.cpp
+         xpath_processor.cpp
+         xpath_expression.cpp
+         xml_util.cpp
+         tokenlist.cpp
+         tinyxmlparser.cpp
+         코드를 생성하고 있습니다...
+         컴파일하고 있습니다...
+         tinyxmlerror.cpp
+         tinyxml.cpp
+         tinystr.cpp
+         node_set.cpp
+         lex_util.cpp
+         htmlutil.cpp
+         action_store.cpp
+         md5.cpp
+         코드를 생성하고 있습니다...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\Son Chaeone\Documents\GitHub\MiniLeague\lib\NNGameFramework_DEBUG.lib" /NOLOGO Debug\md5.obj
+         Debug\action_store.obj
+         Debug\htmlutil.obj
+         Debug\lex_util.obj
+         Debug\node_set.obj
+         Debug\tinystr.obj
+         Debug\tinyxml.obj
+         Debug\tinyxmlerror.obj
+         Debug\tinyxmlparser.obj
+         Debug\tokenlist.obj
+         Debug\xml_util.obj
+         Debug\xpath_expression.obj
+         Debug\xpath_processor.obj
+         Debug\xpath_stack.obj
+         Debug\xpath_static.obj
+         Debug\xpath_stream.obj
+         Debug\xpath_syntax.obj
+         Debug\unzip.obj
+         Debug\zip.obj
+         Debug\NNAnimation.obj
+         Debug\NNApplication.obj
+         Debug\NNAudioSystem.obj
+         Debug\NNCamera.obj
+         Debug\NNCircularBuffer.obj
+         Debug\NNColor.obj
+         Debug\NND2DRenderer.obj
+         Debug\NND3DRenderer.obj
+         Debug\NNInputSystem.obj
+         Debug\NNLabel.obj
+         Debug\NNMatrix.obj
+         Debug\NNNetworkSystem.obj
+         Debug\NNObject.obj
+         Debug\NNParticle.obj
+         Debug\NNParticleSystem.obj
+         Debug\NNPoint.obj
+         Debug\NNRandom.obj
+         Debug\NNResourceManager.obj
+         Debug\NNScene.obj
+         Debug\NNSceneDirector.obj
+         Debug\NNSize.obj
+         Debug\NNSound.obj
+         Debug\NNSprite.obj
+         Debug\NNSpriteAtlas.obj
+         Debug\NNSpriteNode.obj
+         Debug\NNTexture.obj
+         Debug\NNUISet.obj
+         Debug\NNXML.obj
+         Debug\NNZip.obj
+         NNGameFramework.vcxproj -> C:\Users\Son Chaeone\Documents\GitHub\MiniLeague\lib\NNGameFramework_DEBUG.lib
+     1>"C:\Users\Son Chaeone\Documents\GitHub\MiniLeague\NNGameFramework\NNGameFramework.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:02:21.53

@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NNGameFramework", "NNGameFramework\NNGameFramework.vcxproj", "{960874C5-E4E1-40F8-8082-BEDD3CD77B0B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "League", "League\League.vcxproj", "{A87EC6D5-7875-4C7F-8A36-B07B1B06DA98}"
+	ProjectSection(ProjectDependencies) = postProject
+		{960874C5-E4E1-40F8-8082-BEDD3CD77B0B} = {960874C5-E4E1-40F8-8082-BEDD3CD77B0B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{960874C5-E4E1-40F8-8082-BEDD3CD77B0B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{960874C5-E4E1-40F8-8082-BEDD3CD77B0B}.Debug|Win32.Build.0 = Debug|Win32
+		{960874C5-E4E1-40F8-8082-BEDD3CD77B0B}.Release|Win32.ActiveCfg = Release|Win32
+		{960874C5-E4E1-40F8-8082-BEDD3CD77B0B}.Release|Win32.Build.0 = Release|Win32
+		{A87EC6D5-7875-4C7F-8A36-B07B1B06DA98}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A87EC6D5-7875-4C7F-8A36-B07B1B06DA98}.Debug|Win32.Build.0 = Debug|Win32
+		{A87EC6D5-7875-4C7F-8A36-B07B1B06DA98}.Release|Win32.ActiveCfg = Release|Win32
+		{A87EC6D5-7875-4C7F-8A36-B07B1B06DA98}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
